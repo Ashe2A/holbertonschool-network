@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script displays listening ports: listening sockets (-l) with their corresponding program ID and name (-p)
+netstat -l -p
