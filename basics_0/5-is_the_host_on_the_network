@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script pings the arg IP 5 times (-c 5)
+# This script pings the arg IP 5 times (-c 5). It verifies that the arg is just one string
 if [ $# -ne 1 ]; then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
     exit 2
