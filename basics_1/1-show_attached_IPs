@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script shows IPs attached to the machine
+ifconfig | grep "inet " | awk '{print $2}'
+
+exit 0

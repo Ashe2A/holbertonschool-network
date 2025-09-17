@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script configures an Ubuntu server
-# and changes the host adresses of localhost and facebook.com to 127.0.0.2 and 8.8.8.8
+# by changing the host adresses of localhost and facebook.com to 127.0.0.2 and 8.8.8.8
 HOSTS=/etc/hosts
 
 cp /etc/hosts /etc/hosts.bak
