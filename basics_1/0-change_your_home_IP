@@ -3,9 +3,9 @@
 # and changes the host adresses of localhost and facebook.com to 127.0.0.2 and 8.8.8.8
 HOSTS=/etc/hosts
 
-sed -i '/localhost/d' $HOSTS
-sed -i '/facebook.com/d' $HOSTS
-echo "127.0.0.2 localhost" >> $HOSTS
+cp /etc/hosts /etc/hosts.bak
+
+echo "127.0.0.2 localhost" > $HOSTS
 echo "8.8.8.8 facebook.com" >> $HOSTS
 
 exit 0
