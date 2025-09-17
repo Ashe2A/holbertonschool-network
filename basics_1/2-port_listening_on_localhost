@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Listening to localhost at port 98
+while true; do
+  nc -l localhost 98
+done
+
+exit 1
